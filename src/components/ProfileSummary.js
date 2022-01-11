@@ -17,8 +17,8 @@ export default function ProfileSummary({ role, userName }) {
 			{systemSettingsOpen &&
 				<div>
 					<h3>This is the System Settings</h3>
-					<input id='timeout' type="text" />
-					<label htmlFor="timeout">Timeout</label>
+					<label htmlFor="config">A config:</label>
+					<input id='config' type="text" />
 				</div>
 			}
 		</div>
